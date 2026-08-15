@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ciencia Territorio</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7f5;
+            color: #1d2b24;
+        }
+
+        header {
+            background: #164b36;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: white;
+        }
+
+        .hero h1 {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 19px;
+            max-width: 700px;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+        .search {
+            margin: 30px auto;
+            max-width: 600px;
+            display: flex;
+        }
+
+        .search input {
+            flex: 1;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px 0 0 8px;
+            font-size: 16px;
+        }
+
+        .search button {
+            padding: 15px 25px;
+            border: none;
+            background: #2f7d57;
+            color: white;
+            border-radius: 0 8px 8px 0;
+            cursor: pointer;
+        }
+
+        .section {
+            padding: 50px 8%;
+        }
+
+        .section h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #164b36;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        🔬 Ciencia Territorio
+    </div>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Proyectos</a>
+        <a href="#">Biblioteca</a>
+    </nav>
+
+</header>
+
+
+<section class="hero">
+
+    <h1>Investiga tu territorio</h1>
+
+    <p>
+        Una plataforma para que jóvenes de la Región de Valparaíso
+        encuentren información científica, conozcan investigaciones
+        y colaboren con otros proyectos.
+    </p>
+
+    <div class="search">
+
+        <input
+            type="text"
+            placeholder="¿Qué quieres investigar?"
+        >
+
+        <button>
+            Buscar
+        </button>
+
+    </div>
+
+</section>
+
+
+<section class="section">
+
+    <h2>Explora por área</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🌱 Botánica</h3>
+            <p>Plantas, flora y biodiversidad.</p>
+        </div>
+
+        <div class="card">
+            <h3>💧 Agua</h3>
+            <p>Recursos hídricos y contaminación.</p>
+        </div>
+
+        <div class="card">
+            <h3>🌊 Ecosistemas</h3>
+            <p>Mar, costa y ecosistemas terrestres.</p>
+        </div>
+
+        <div class="card">
+            <h3>🌫️ Contaminación</h3>
+            <p>Aire, suelo, agua y residuos.</p>
+        </div>
+
+        <div class="card">
+            <h3>🔥 Incendios</h3>
+            <p>Prevención, impacto y recuperación.</p>
+        </div>
+
+        <div class="card">
+            <h3>🌡️ Cambio climático</h3>
+            <p>Clima y transformación ambiental.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="section">
+
+    <h2>¿Qué puedes encontrar?</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>📚 Biblioteca</h3>
+            <p>Informes, investigaciones y fuentes científicas.</p>
+        </div>
+
+        <div class="card">
+            <h3>📍 Territorio</h3>
+            <p>Información organizada por comuna y localidad.</p>
+        </div>
+
+        <div class="card">
+            <h3>👥 Proyectos</h3>
+            <p>Conoce investigaciones realizadas por otros jóvenes.</p>
+        </div>
+
+        <div class="card">
+            <h3>💬 Comunidad</h3>
+            <p>Comparte ideas y encuentra proyectos similares.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <p>🔬 Ciencia Territorio · Región de Valparaíso</p>
+
+</footer>
+
+</body>
+</html>
